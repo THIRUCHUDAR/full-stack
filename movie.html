@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Malayalam Movie Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #41bd43;
+      color: #ffffff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .movie-card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+      display: grid;
+    }
+
+    .poster img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .details {
+      padding: 15px;
+    }
+
+    .title {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    .info {
+      color: #aaa;
+      margin: 8px 0;
+      font-size: 0.9rem;
+    }
+
+    .description {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .button{
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Top Malayalam Movies</h1>
+
+  <div class="gallery">
+    <!-- Premam -->
+    <div class="movie-card">
+      <div class="poster">
+        <img src="Premam.webp" alt="Premam">
+      </div>
+      <div class="details">
+        <div class="title">Premam</div>
+        <div class="info">2015 | Romance, Drama | 8.3/10</div>
+        <div class="description">
+          A coming-of-age love story that follows George and his three phases of love from school to adulthood.
+        </div>
+        <button><a href="https://youtu.be/pbgvTikmIMk">Play ▶</a></button>
+      </div>
+    </div>
+
+    <!-- Hridayam -->
+    <div class="movie-card">
+      <div class="poster">
+        <img src="hridayam.jpg" alt="Hridayam">
+      </div>
+      <div class="details">
+        <div class="title">Hridayam</div>
+        <div class="info">2022 | Drama, Romance | 8.1/10</div>
+        <div class="description">
+          A soulful journey through Arun's life, exploring love, mistakes, transformation, and rediscovery.
+        </div>
+        <button><a href="https://youtu.be/48tqyDA5Sb0">Play ▶</a></button>
+      </div>
+    </div>
+
+    <!-- Ayyappanum Koshiyum -->
+    <div class="movie-card">
+      <div class="poster">
+        <img src="ak.webp" alt="Ayyappanum Koshiyum">
+      </div>
+      <div class="details">
+        <div class="title">Ayyappanum Koshiyum</div>
+        <div class="info">2020 | Action, Drama | 8.0/10</div>
+        <div class="description">
+          An intense ego clash between a police officer and an ex-army man leads to dramatic and unexpected turns.
+        </div>
+        <button><a href="https://youtu.be/8Wx3dAQ8pr4">Play ▶</a></button>
+      </div>
+    </div>
+
+    <!-- Aavesham -->
+    <div class="movie-card">
+      <div class="poster">
+        <img src="avesham.jpg" alt="Aavesham">
+      </div>
+      <div class="details">
+        <div class="title">Aavesham</div>
+        <div class="info">2024 | Action, Comedy | 8.5/10</div>
+        <div class="description">
+          A wild and energetic gangster becomes an unlikely hero to a group of engineering students in Bengaluru.
+        </div>
+        <button><a href="https://youtu.be/L0yEMl8PXnw">Play ▶</a></button>
+      </div>
+    </div>
+
+    <!-- Kumbalangi Nights -->
+    <div class="movie-card">
+      <div class="poster">
+        <img src="kn.avif" alt="Kumbalangi Nights">
+      </div>
+      <div class="details">
+        <div class="title">Kumbalangi Nights</div>
+        <div class="info">2019 | Drama | 8.5/10</div>
+        <div class="description">
+          A beautiful tale of four brothers navigating love, relationships, and brotherhood in a small fishing village.
+        </div>
+        <button><a href="https://youtu.be/3P4BFBSafF0">Play ▶</a></button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
